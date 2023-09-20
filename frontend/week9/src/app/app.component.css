@@ -1,0 +1,47 @@
+.navbar-brand {
+    letter-spacing: 3px;
+    color: #b85467;
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 800px;
+  }
+  
+  
+  .navbar-brand:hover {
+      color: #c24244;
+      cursor: pointer;
+  }
+  
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #7f4722;
+  }
+  
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #7f4722;
+  }
+  
+  .navbar-scrolled {
+    background-color: #ffede7;
+  }
+  
+  .navbar-nav .nav-link
+  {
+    color: #421b2c;
+    font-size: 20px;
+    transition: font-size 0.3s;
+    font-family: unset;
+  }
+  
+  .navbar-nav .nav-link:hover
+  {
+      font-size: 30px;
+      cursor:pointer;
+  }
+
+  .btn
+  {
+    width: 100px;
+    font-family: unset;
+  }

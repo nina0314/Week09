@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style="background-color: #f9f9f9;">
+  <div class="container">
+    <a class="navbar-brand" style="margin-right: 700px;">Week 09</a>
+
+  <ng-template #user>
+    <a class="navbar-brand">Products</a>
+  </ng-template>
+    <button class="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+      aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="d-flex justify-content-start align-items-center">
+        <i class="fas fa-bars"></i>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarExample01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link px-3" (click)="add()">Add Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" (click)="list()">List Products</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<router-outlet>
+</router-outlet>

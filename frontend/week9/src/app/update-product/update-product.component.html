@@ -1,0 +1,27 @@
+<div class="container" style="padding-top:100px">
+    <form (submit)="updateNewProduct()">
+        <div class="form-group">
+            <label for="productid"> Product ID</label>
+            <input type="text" class="form-control" id="id" [(ngModel)]="id" 
+            name="productid" placeholder="ID" readonly>
+        </div>
+        <div class="form-group">
+            <label for="productid"> Product Name</label>
+            <input type="text" class="form-control" id="productname" [(ngModel)]="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="productid"> Description </label>
+            <textarea class="form-control" id="productdesc" [(ngModel)]="description" name="description"> </textarea>
+        </div>
+        <div class="form-group">
+            <label for="productid"> Product Price</label>
+            <input type="number" class="form-control" id="productprice" [(ngModel)]="price" name="productprice" placeholder="0">
+        </div>
+        <div class="form-group">
+            <label for="productid"> Unit </label>
+            <input type="number" class="form-control" id="units" [(ngModel)]="units" name="productunites">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary"> <i class="fa fa-plus-square"></i> Update </button>
+        </div>
+    </form>
